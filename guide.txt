@@ -50,7 +50,8 @@ Intro
     - Composition vs Inheritance
 
 Next steps
-  - Element Refs
+  - Routing
   - RXJS
+  - Element Refs
   - Higher order components
   - Hooks
