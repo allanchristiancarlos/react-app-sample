@@ -1,0 +1,56 @@
+Intro
+  - Facebook
+  - Architecture
+    - Used in SPA's, or normal website replace for jquery
+    - Language JSX, ES6
+      - Writing HTML in react component itself
+      - class to className
+    - Rendering component
+    - No direct DOM manipulation
+  - Components
+    - Creation of class or function
+    - Using components
+    - Props
+      - Emitting events and recieveing inputs
+      - Properties
+      - Events
+        - This binding
+      - Children prop
+      - Conditional rendering
+        - Logical and
+        - return logical
+        - shorthand if else curly braces
+      - Looping
+        - using map to components
+        - keys to identify elements
+          - Prefer data id for performance or use index if there is no stable id
+        - keys should be defined after the loop
+    - Binding
+      - Handle bar
+    - Principles
+      - Pure vs Impure (Same input same output)
+    - Class components
+      - Render method
+      - Lifecycle
+        - componentDidMount - Component output is rendered to dom
+        - componentWillUnmount - Teardown
+          - Sample timer
+      - State
+        - setState
+        - Recommendations
+          - Use function to update state for performance
+          - dont directly modify state prop
+      - Top down or uniderectional data flow 
+      - Stateless and stateful compoentns
+  - Forms
+    - onChange event
+    - value binding
+    - Formik forms library
+  - Principles
+    - Composition vs Inheritance
+
+Next steps
+  - Element Refs
+  - RXJS
+  - Higher order components
+  - Hooks
